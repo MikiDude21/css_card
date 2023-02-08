@@ -86,3 +86,90 @@ button{
 button:hover{
     background-color: hsl(158, 50%, 24%);
 }
+@media only screen and (max-width: 760px) {
+
+  p{
+    margin-top: 1px;
+    padding-left: 7px;
+    letter-spacing: 1px;
+    font-size: 13px;
+  }
+}
+@media only screen and (max-width: 830px) {
+
+  p{
+    margin-top: 1px;
+    padding-left: 7px;
+    letter-spacing: 1px;
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 703px) {
+
+  p{
+    margin-top: 1px;
+    padding-left: 7px;
+    letter-spacing: 1px;
+    font-size: 13px;
+  }
+  .img-container{
+
+    border-radius: 2% 0% 0% 2%;
+    background-color: rgb(189, 74, 74);
+    width: 100%;
+    height: 50%;
+    background-image: url(images/image-product-desktop.jpg);
+    /* background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; */
+}
+.text-container{
+
+    border-radius: 0% 2% 2% 0%;
+    width: 85%;
+    height: 50%;
+    position: relative;
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+
+
+}
+.container{
+    background-color: white;
+    width: 80%;
+    height: 90%;
+    border-radius: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+ button{
+    background-color:hsl(158, 36%, 37%) ;
+    position: absolute;
+    left: 30px;
+    bottom: 30px;
+    border: none;
+    width: 70%;
+    height: 30px;
+   
+}
+}
+@media only screen and (max-width: 531px) {
+
+ button{
+    background-color:hsl(158, 36%, 37%) ;
+    position: absolute;
+    left: 30px;
+    bottom: 30px;
+    border: none;
+    width: 70%;
+    height: 30px;
+    border-radius: 12px;
+    color: white;
+}
+button:hover{
+    background-color: hsl(158, 50%, 24%);
+}
+}
